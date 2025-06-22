@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<!--FIM DO BOOTSTRAP ICONS-->    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="menu.js" defer></script>
+
+    <title>Página principal Projeto Exates</title>
+</head>
+<body>
+    
+    <header>
+        
+            <section class="top-header" id="l1">
+                <div class="interface">
+                
+                    <div class="logotipo">
+                        <a href="#l1">
+                            <img src="imagens/Logo2pretaeazul.png" alt="Projeto Exates">
+                        </a>
+                    </div>
+
+                    <div class="btn-social">
+                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="#"><button><i class="bi bi-facebook"></i></button></a>
+                        <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bottom-header">
+                <div class="interface">
+
+                    <nav class="desktop">
+                        <ul>
+                            <li><a href="#l1">HOME</a></li>
+                            <li><a href="/noticias.html">NOTÍCIAS</a></li>
+                            <li class="drop-hover"><a href="#l3">ESTUDAR <i class="bi bi-caret-down-fill"></i></a>
+                                <div class="drop">
+                                    <a href="/matematica.html">MATEMÁTICA</a>
+                                    <a href="/tecnologia.html">TECNOLOGIA</a>
+                                    <a href="/fisica.html">FÍSICA</a>
+                                    <a href="/quimica.html">QUÍMICA</a>
+                                </div>
+                            </li>
+                            <li><a href="/exercicios.html">EXERCÍCIOS</a></li>
+                            <li><a href="#l4">CONTATO</a></li>
+                        </ul>
+                    </nav>
+                    
+                    <div class="btn-abrir-menu" id="btn-menu">
+                        <i class="bi bi-list"></i>
+                    </div><!--btn-abrir-menu-->
+
+                    <div class="menu-mobile" id="menu-mobile">
+                        <div class="btn-fechar">
+                            <i class="bi bi-x-lg"></i>
+                        </div><!--btn-fechar-->
+
+                        <nav>
+                            <ul>
+                                <li><a href="#l1">HOME</a></li>
+                                <li><a href="#l2">NOTÍCIAS</a></li>
+                                <li class="drop-hover"><a href="#l3">ESTUDAR <i class="bi bi-caret-down-fill"></i></a>
+                                    <div class="drop">
+                                        <a href="/matematica.html">MATEMÁTICA</a>
+                                        <a href="/tecnologia.html">TECNOLOGIA</a>
+                                        <a href="/fisica.html">FÍSICA</a>
+                                        <a href="/quimica.html">QUÍMICA</a>
+                                    </div>
+                                </li>
+                                <li><a href="/exercicios.html">EXERCÍCIOS</a></li>
+                                <li><a href="#l4">CONTATO</a></li>
+                            </ul>
+                        </nav>
+                    </div><!--menu-mobile-->
+                    <div class="overlay-menu" id="overlay-menu"></div>
+                </div>
+            </section>
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1 class="h1somos">Bem-vindo(a) ao <span>Projeto Exates</span>.</h1>
+                        <p>Olá, meu nome é Thomas Marques, sou estudante de Engenharia de software.</p> <p>Desenvolvi essa plataforma de ensino gratuita voltada para a educação em matemática e tecnologia. Com a missão de democratizar o acesso ao conhecimento, planejo expandir os conteúdos para incluir física e química no futuro.</p>
+                        <p>Além das videoaulas, notícias sobre diversos temas, a plataforma tem como objetivo, disponibilizar professores particulares para alunos que não têm condições financeiras de arcar com esses custos. Essa iniciativa visa não apenas facilitar o aprendizado, mas também proporcionar suporte individualizado para aqueles que mais precisam.</p>   
+                        <p>Qualquer dúvida ou sugestão, entre em contato comigo, bons estudos!</p>
+
+                        <div class="btn-contato">
+                            <a href="#l4">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div><!--btn-contato-->
+                    </div><!--txt-topo-site-->
+                    
+                    <div class="img-topo-site">
+                        <img src="imagens/Logo.PNG" alt="">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+        
+        <section class="home_noticias">
+            <div class="interf.news">
+                <h2 class="titulo">Últimas <span>Notícias</span>:</h2>
+                <div class="flex">
+                    <div class="img-new" style="background-image: url(imagens/noticia\ 1.jpeg);">
+                        <div class="overlay"><a href="#">Notícia 1</a></div>
+                    </div>
+                    <div class="img-new" style="background-image: url(imagens/Noticia\ 2.jpeg);">
+                        <div class="overlay"><a href="">Notícia 2</a></div>
+                    </div>
+                    <div class="img-new" style="background-image: url(imagens/noticias\ 3.jpeg);">
+                        <div class="overlay"><a href="#">Notícia 3</a></div>
+                    </div>
+                    <div class="img-new" style="background-image: url(imagens/Mais_noticias.jpeg);">
+                        <div class="overlay"><a href="/noticias.html">Mais notícias</a></div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interf.news-->
+        </section><!--home_noticias-->
+
+        <section class="estudar" id="l3">
+            <div class="estudarinterface">
+                <h2 class="titulo">O que você deseja <span>aprender</span>?</h2>
+                <div class="flex">
+                    <div class="deseja-box"><a href="/matematica.html">
+                        <i class="bi bi-calculator"></i>
+                        <h3>Matemática</h3></a>
+                        <p>Matemática é a ciência que estuda padrões, estruturas, quantidades e formas. Ela inclui áreas como aritmética, álgebra, geometria e cálculo, sendo essencial para o desenvolvimento de outras ciências e tecnologias.</p>
+                    </div><!--deseja-box-->
+                    <div class="deseja-box"><a href="/tecnologia.html">
+                        <i class="bi bi-globe2"></i>
+                        <h3>Tecnologia</h3></a>
+                        <p>Tecnologia é o uso de conhecimentos científicos e ferramentas para criar soluções que melhoram a vida humana. Ela abrange áreas como informática, telecomunicações, robótica e biotecnologia, desempenhando um papel crucial na inovação e progresso da sociedade.</p>
+                    </div><!--deseja-box-->
+                </div><!--flex-->
+                <div class="flex">
+                    <div class="deseja-box"><a href="/fisica.html">
+                        <i class="bi bi-flower2"></i>
+                        <h3>Física (em construção)</h3></a>
+                        <p>A Física é a ciência que estuda a natureza e suas leis fundamentais. Ela se preocupa com a compreensão dos fenômenos naturais, desde as menores partículas subatômicas até o universo como um todo. A Física busca descrever como e por que os objetos se movem, como as forças atuam sobre eles, e como a energia é transferida e transformada.</p>
+                    </div><!--deseja-box-->
+                    <div class="deseja-box"><a href="/quimica.html">
+                        <i class="bi bi-capsule-pill"></i>
+                        <h3>Química (em construção)</h3></a>
+                        <p>A Química é a ciência que estuda a composição, estrutura, propriedades e transformações da matéria. Ela investiga como diferentes substâncias interagem e se combinam, assim como as reações que ocorrem entre elas. A Química é fundamental para compreender os processos naturais e criar novos materiais e produtos.</p>
+                    </div><!--deseja-box-->
+                </div>
+            </div><!--estudarinterface-->
+        </section><!--estudar-->
+
+        <section class="formulario" id="l4">
+            <div class="inter.formulario">
+                <h2 class="titulo">Entrar em <span>contato</span>.</h2>
+
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome:" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                    <textarea name="" id="" placeholder="Sua mensagem:" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div><!--inter,formulario-->
+        </section><!--formulario-->
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <a href="#l1">
+                            <img src="imagens/Logo2pretaeazul.png" alt="Projeto Exates">
+                        </a>
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="#"><button><i class="bi bi-facebook"></i></button></a>
+                        <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+                    </div><!--btn-social-->
+                </div><!--flex-->
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:p.exates@gmail.com">p.exates@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+</body>
+</html>
